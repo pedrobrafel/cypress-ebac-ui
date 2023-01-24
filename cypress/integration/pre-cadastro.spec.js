@@ -2,9 +2,7 @@
 import { faker } from '@faker-js/faker';
 
 
-describe('Funcionalidade Pré-Cadastro', () => {
-
-
+describe('Funcionalidade: Pré-Cadastro', () => {
 
     beforeEach(() => {
         cy.visit('http://lojaebac.ebaconline.art.br/my-account/')
@@ -30,13 +28,4 @@ describe('Funcionalidade Pré-Cadastro', () => {
         .should('contain','Detalhes da conta modificados com sucesso.')
 
     });
-
 });
-
-
-
-
-
-
-// pedro_teste@teste.com
-// pedro@123

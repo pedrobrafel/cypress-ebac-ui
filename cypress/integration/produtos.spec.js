@@ -18,26 +18,31 @@ describe('Funcionalidade: Página de Produtos', () => {
         let qnt = 5
 
         cy.get('[class="product-block grid"]')
-        .eq(1)
-        .click()
+            .eq(1)
+            .click()
 
         cy.get('[class="variable-item button-variable-item button-variable-item-S"]')
-        .click()
+            .click()
 
         cy.get('[class="variable-item button-variable-item button-variable-item-Blue"]')
-        .click()
+            .click()
 
         cy.get('.input-text')
-        .clear()
-        .type(qnt)
+            .clear()
+            .type(qnt)
 
         cy.get('.single_add_to_cart_button')
-        .click()
+            .click()
 
         cy.get('.dropdown-toggle > .mini-cart-items')
-        .should('contain', qnt)
+            .should('contain', qnt)
 
         cy.get('.woocommerce-message')
-        .should('contain', qnt + ' × “Abominable Hoodie” foram adicionados no seu carrinho.')
+            .should('contain', qnt + ' × “Abominable Hoodie” foram adicionados no seu carrinho.')
     })
+
+    it.only('Deve adicionar um produtop ao carrinho - Comando customizado', () => {
+        cy.addProdutos('S', 'Blue', 5)
+
+    });
 });

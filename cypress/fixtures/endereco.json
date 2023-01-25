@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Pedro",
+        "sobrenome": "Henrique",
+        "empresa": "CIA",
+        "pais": "Brasil",
+        "endereco": "Rua alguma",
+        "cidade": "Acrelandia",
+        "estado":"Acre",
+        "cep": "00000001",
+        "telefone": "119999999999",
+        "email": "pedro_teste@ebac.com"
+    },
+    {
+        "nome": "Henrique",
+        "sobrenome": "Braga",
+        "empresa": "SAP",
+        "pais": "Brasil",
+        "endereco": "Rua alguma",
+        "cidade": "Acrelandia",
+        "estado":"Acre",
+        "cep": "00000001",
+        "telefone": "119999999999",
+        "email": "pedro_teste@ebac.com"
+    },
+    {
+        "nome": "Acrecio",
+        "sobrenome": "Cesio",
+        "empresa": "Autonomo",
+        "pais": "Brasil",
+        "endereco": "Rua alguma",
+        "cidade": "Acrelandia",
+        "estado":"Acre",
+        "cep": "00000001",
+        "telefone": "119999999999",
+        "email": "pedro_teste@ebac.com"
+    }
+]

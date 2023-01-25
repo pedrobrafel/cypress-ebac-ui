@@ -3,8 +3,8 @@ const perfil = require('../fixtures/perfil.json')
 
 context('Funcionalidade: Login', function () {
 
-    let usuarioTeste = 'aluno_ebac@teste.com'
-    let senhaTeste = 'teste@teste.com'
+    let usuarioTeste = 'pedro_teste@ebac.com'
+    let senhaTeste = 'pedro@ebac.com'
 
     beforeEach(() => {
         cy.visit('my-account/')
@@ -22,7 +22,7 @@ context('Funcionalidade: Login', function () {
             .click()
 
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)')
-            .should('contain', 'Olá, aluno_ebac')
+            .should('contain', 'pedro_teste-5547')
     });
 
     it('Deve fazer login com sucesso - Arquivo de Dados Fixture', function () {
@@ -40,7 +40,7 @@ context('Funcionalidade: Login', function () {
             .should('contain', 'Olá, aluno_ebac')
     });
 
-    it.only('Deve fazer login com sucesso - Fixture direto no cenario', function () {
+    it('Deve fazer login com sucesso - Fixture direto no cenario', function () {
 
         cy.fixture('perfil').then(dados => {
             cy.get('#username')

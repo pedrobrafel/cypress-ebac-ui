@@ -4,7 +4,10 @@
   "description": "Projeto utilizado nos módulos 11 e 12",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "cy:report": "cypress run --record --key bec13086-aafe-490c-9857-088dad029050"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,26 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-15067
+END=4678
+title=Funcionalidade: Login Deve fazer login com sucesso
+[CHAPTER]
+TIMEBASE=1/1000
+START=13707
+END=24436
+title=Funcionalidade: Login Deve fazer login com sucesso - Arquivo de Dados Fixture
+[CHAPTER]
+TIMEBASE=1/1000
+START=23522
+END=35174
+title=Funcionalidade: Login Deve fazer login com sucesso - Fixture direto no cenario
+[CHAPTER]
+TIMEBASE=1/1000
+START=32511
+END=46874
+title=Funcionalidade: Login Deve exibir uma mensagem de erro quando o usuario for inválido
+[CHAPTER]
+TIMEBASE=1/1000
+START=49910
+END=61245
+title=Funcionalidade: Login Deve exibir uma mensagem de erro quando a senha for inválida
